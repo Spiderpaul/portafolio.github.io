@@ -1,0 +1,132 @@
+.menu__imagen{
+    border-radius: 50%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.menu__contenido{
+    background: #273142;
+    color: white;
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu__link{
+    color: white;
+    position: absolute;
+    padding: 5px 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu__imagen{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.menu__title{
+    font-size: 24px;
+}
+
+.menu__list{
+    float: right;
+    margin-right: 20px;
+}
+
+.menu__list__item{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.menu__list__link{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.menu__list__link.active,
+.menu__list__link:hover{
+    background: white;
+    color: #273142;
+    transition: 0.1s;
+}
+
+.checkbtn{
+    color: white;
+    float: right;
+    font-size: 40px;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 1300px){
+    .menu__link{
+        padding-left: 20px;
+    }
+
+    .menu__list{
+        margin-right: 10px;
+    }
+
+    .menu__list__item{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1100px){
+    .checkbtn{
+        display: block;
+    }
+
+    .menu__list{
+        background: #273142;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        margin-top: 0;
+        right: -110%;
+        text-align: left;
+        transition: all 0.5s;
+    }
+
+    .menu__list__item{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .menu__list__link{
+        font-size: 20px;
+    }
+
+    .menu__list__link:hover,
+    .menu__list__link.active{
+        background: none;
+        color: white;
+    }
+
+    .check:checked ~ .menu__list{
+        right: -60%;
+    }
+}
