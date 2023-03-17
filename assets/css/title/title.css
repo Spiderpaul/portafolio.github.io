@@ -33,13 +33,12 @@
 .title__container__profile.active,
 .title__profile.active{
     opacity: 0;
-    transition: 3s ease;
+    transition: 1s ease;
 }
 
 .title__container__profile:hover{
     rotate: 15deg;
-    transition: 0.2s;
-    transition-timing-function: ease;
+    transition: 0.2s ease;
     right: 8%;
     top: 100px;
 }
