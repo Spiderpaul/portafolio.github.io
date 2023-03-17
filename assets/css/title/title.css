@@ -16,6 +16,8 @@
     position: absolute;
     right: 10%;
     top: 110px;
+    opacity: 100%;
+    transition: 2s ease;
 }
 
 
@@ -24,14 +26,21 @@
     height: 94%;
     border-radius: 50%;
     margin: auto;
+    opacity: 100%;
+    transition: 2s ease;
+}
+
+.title__container__profile.active,
+.title__profile.active{
+    opacity: 0;
+    transition: 3s ease;
 }
 
 .title__container__profile:hover{
-    width: 460px;
-    height: 460px;
+    rotate: 15deg;
     transition: 0.2s;
     transition-timing-function: ease;
-    right: 9%;
+    right: 8%;
     top: 100px;
 }
 

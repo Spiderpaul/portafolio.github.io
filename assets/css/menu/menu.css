@@ -10,9 +10,15 @@
   'opsz' 48
 }
 
+.menu__separador{
+    width: 100%;
+    height: 80px;
+}
+
 .menu__contenido{
     background: #273142;
     color: white;
+    position: fixed;
     width: 100%;
     height: 80px;
     text-decoration: none;

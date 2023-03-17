@@ -24,7 +24,7 @@
     <div class="tudo">
     <section class="menu">
         <header class="menu__header">
-            <nav class="menu__contenido">
+            <nav class="menu__contenido" data-menu>
                 <a class="menu__link" href="#">
                     <img class="menu__imagen" src="assets/img/paul-ico.jpg">
                     <h3 class="menu__title">Paul Lugo</h3>
@@ -42,14 +42,15 @@
                     <li class="menu__list__item"><a class="menu__list__link" href="#contacto">paulugortega@gmail.com</a></li>
                 </ul>
             </nav>
+            <div class="menu__separador"></div>
         </header>
     </section>
 
     <!-- Sección del Header/Title/Hero -->
     <section class="title">
         <div class="title__div">
-            <div class="title__container__profile">
-                <img class="title__profile" src="assets/img/Paulugo.jpg">
+            <div class="title__container__profile" data-container>
+                <img class="title__profile" src="assets/img/Paulugo.jpg" data-img>
             </div>
             <div class="title__container">
                 <h2 class="title__bio">Hola, mi nombre es Paul Lugo y soy desarrollador de software, enfocado en Frontend.</h2>
@@ -291,6 +292,7 @@
         </section>
     </div>
  <!-- Script del documento JavaScript -->
-<script src="validacion.js"></script>
+ <script src="js/menu.js"></script>
+<script src="js/validacion.js"></script>
 </body>
 </html>
