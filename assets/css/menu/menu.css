@@ -40,6 +40,7 @@
 
 .menu__list{
     float: right;
+    margin-top: 10px;
     margin-right: 20px;
 }
 
@@ -102,17 +103,18 @@
         background: #273142;
         position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 40vh;
         top: 80px;
         margin-top: 0;
         right: -110%;
         text-align: left;
         transition: all 0.5s;
+        border-radius: 0 0 0 10px;
     }
 
     .menu__list__item{
         display: block;
-        margin: 50px 0;
+        margin: 30px 0;
         line-height: 30px;
     }
 
@@ -127,6 +129,6 @@
     }
 
     .check:checked ~ .menu__list{
-        right: -60%;
+        right: -70%;
     }
 }
