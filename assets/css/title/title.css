@@ -2,13 +2,13 @@
     background: #195e63;
     display: flex;
     width: 100%;
-    height: 380px;
+    height: 280px;
 }
 
 .title__container__profile{
     background: white;
-    width: 420px;
-    height: 420px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     box-shadow: 1px 4px 8px 4px rgba(72, 72, 72, 0.2);
     display: flex;
@@ -50,13 +50,13 @@
 
 .title__bio{
     color: white;
-    font-size: 40px;
-    margin-top: 100px;
+    font-size: 28px;
+    margin-top: 60px;
 }
 
 .title__subsection{
     color: white;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .title__network{
@@ -72,7 +72,7 @@
 .tittle__network__link{
     text-decoration: none;
     color: white;
-    font-size: 22px;
+    font-size: 16px;
     margin-right: 20px;
 }
 
@@ -98,7 +98,7 @@
     .title__div{
         flex-direction: column;
         align-items: center;
-        height: 620px;
+        height: 460px;
     }
 
     .title__container{
@@ -109,19 +109,19 @@
 
     .title__container__profile{
         right: auto;
-        top: 40%;
+        top: 28%;
     }
 }
 
 @media (max-width: 1020px){
     .title__div{
-        height: 660px;
+        height: 470px;
     }
 
     .title__container__profile{
-        width: 380px;
-        height: 380px;
-        top: 45%;
+        width: 250px;
+        height: 250px;
+        top: 30%;
     }
 
 }
