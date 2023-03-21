@@ -6,7 +6,7 @@
 
 .about__container__text{
     width: 80%;
-    height: 370px;
+    height: auto;
     margin: auto;
     margin-top: 3%;
 }
@@ -25,7 +25,7 @@
 
 .about__container__signature{
     width: 80%;
-    height: 100px;
+    height: auto;
     margin: auto;
 }
 
