@@ -1,8 +1,45 @@
 .skills__container{
-    background: orange;
-    width: 80%;
-    height: 40vh;
+    background: linear-gradient(45deg, #09456c, #195e63);
+    width: 100%;
+    height: 78vh;
     margin: auto;
+    padding-top: 20px;
+}
+
+.skills__container__title{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.skills__title{
+    color: white;
+    margin: center;
+}
+
+.skills__line{
+    width: 80%;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills__box{
+    width: 90px;
+    height: 120px;
+    text-align: center;
+    margin: 0 2%;
+    border: 2px solid white;
+    box-shadow: 0 0 14px 1px rgb(255, 255, 255);
+    border-radius: 5%;
+    padding: 5px 0;
+}
+
+.skills_img{
+    display: flex;
 }
 
 .skills__img__languages{
@@ -10,3 +47,6 @@
     height: 80px;
 }
 
+.skills__name{
+    color: white;
+}
