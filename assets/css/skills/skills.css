@@ -1,0 +1,12 @@
+.skills__container{
+    background: orange;
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+}
+
+.skills__img__languages{
+    width: 80px;
+    height: 80px;
+}
+

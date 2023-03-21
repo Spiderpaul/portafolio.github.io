@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/menu/menu.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/title/title.css">
+    <link rel="stylesheet" href="assets/css/about/about.css">
+    <link rel="stylesheet" href="assets/css/skills/skills.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
@@ -53,12 +55,12 @@
                 <h2 class="title__bio">Hola, mi nombre es Paul Lugo y soy desarrollador de software, enfocado en Frontend.</h2>
                 <h3 class="title__subsection">Soy formado en la UnADM, donde he cursado una carrera en Ingeniería en Desarrollo de Software, y actualmente estoy participando del proyecto Oracle ONE en Alura Latam con especialización en Frontend.</h3>
                 <div class="title__container__network">
-                    <ul class="title__network">
+                    <div class="title__network">
                         <!-- Pon los enlaces de tus redes sociales favoritas -->
-                        <li class="title__network__item"><a class="tittle__network__link" href=""><img class="tittle__network__icon" src="assets/img/github.png"></img> </a></li>
-                        <li class="title__network__item"><a class="tittle__network__link" href=""><img class="tittle__network__icon" src="assets/img/linkedin.png"></img> </a></li></a></li>
-                        <li class="title__network__item"><a class="tittle__network__link" href=""><img class="tittle__network__icon" src="assets/img/curriculum.png"></img> </a></li></a></li>
-                    </ul>
+                        <div class="title__contenedor__img"><a class="tittle__network__link" href="https://github.com/Spiderpaul" target="_blank"><img class="tittle__network__icon" src="assets/img/github.png"></img> </a></div>
+                        <div class="title__contenedor__img"><a class="tittle__network__link" href="https://www.linkedin.com/in/paulugortega/" target="_blank"><img class="tittle__network__icon" src="assets/img/linkedin.png"></img> </a></div>
+                        <div class="title__contenedor__img"><a class="tittle__network__link" href=""><img class="tittle__network__icon" src="assets/img/curriculum.png"></img> </a></div>
+                    </div>
                 </div>
             </div>
             <div class="title__container__principal">
@@ -67,7 +69,7 @@
                         <img class="title__profile" src="assets/img/Paulugo.jpg" data-img>
                     </div>
                     <div class="title__container__profile__back">
-                        <img class="" src="assets/img/Paul.jpg" data-img>
+                        <img class="title__profile" src="assets/img/Paul.jpg" data-img>
                     </div>
                 </div>
             </div>
@@ -77,59 +79,74 @@
     <!-- Sección sobre mi -->
     <section class="about" id="sobre-mi">
         <div class="about__container">
-            <h3 class="about__title">Sobre mi</h3>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+            <div class="about__container__text">
+                <h3 class="about__title">Sobre mí</h3>
+                <p class="about__paragraph">¡Hola! Soy un ingeniero en desarrollo de software recién graduado de la Universidad Abierta y a Distancia de México (UnADM). Actualmente estoy cursando un programa llamado Oracle Next Education (ONE) de Oracle, con especialización en Frontend. Me apasiona el aprendizaje, por lo que comúnmente estoy en busca de nuevos retos para crecer y mejorar mis habilidades.  </p>
+                <p class="about__paragraph">Me considero una persona solidaria y comprometida con el bienestar de los demás. Me gusta trabajar en equipo y colaborar con otros para lograr objetivos comunes. Busco formar parte de una empresa que valore la excelencia en el desarrollo de software y ofrezca un ambiente de trabajo desafiante, donde pueda aplicar mis habilidades y conocimientos para contribuir al éxito de la empresa y, al mismo tiempo, seguir creciendo profesionalmente. Si buscas a alguien apasionado y comprometido para formar parte de tu equipo, no dudes en contactarme. </p>
+                <p class="about__paragraph">¡Estoy listo para asumir nuevos desafíos y colaborar con el éxito de tu empresa! </p>
+            </div>
             <!-- Si quieres, pon tú firma acá! -->
-            <img src="assets\signature.png">
+            <div class="about__container__signature">
+                <img class="about__signature" src="assets/img/firma.png">
+            </div>
         </div>
     </section>
 
     <!-- Sección de Skills -->
     <section class="skills" id="skills">
-        <h3 class="skills__title">Skills</h3>
-            <div class="skills__line">
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
-                        <li class="skills__name"> HTML 5</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
-                        <li class="skills__name">Javascript</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
-                        <li class="skills__name">PHP</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                        <li class="skills__name">Node JS</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
-                        <li class="skills__name">React</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
-                        <li class="skills__name">CSS</li>
-                    </ul>
-                </div>
+        <div class="skills__container">
+            <h3 class="skills__title">Skills</h3>
+                <div class="skills__line">
+                    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img class="skills__img__languages" src="assets/img/languages/html.png" alt=""></li>
+                            <li class="skills__name">HTML 5</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img class="skills__img__languages" src="assets/img/languages/css.png" alt=""></li>
+                            <li class="skills__name">CSS 3</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"><img class="skills__img__languages" src="assets/img/languages/js.png"></li>
+                            <li class="skills__name">JavaScript</li>
+                        </ul>
+                    </div>
+    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"><img class="skills__img__languages" src="assets/img/languages/java.png" alt=""></li>
+                            <li class="skills__name">Java</li>
+                        </ul>
+                    </div>
+    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img class="skills__img__languages" src="assets/img/languages/php.png" alt=""> </li>
+                            <li class="skills__name">PHP</li>
+                        </ul>
+                    </div>
+    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img class="skills__img__languages" src="assets/img/languages/csharp.png" alt=""> </li>
+                            <li class="skills__name">C#</li>
+                        </ul>
+                    </div>
+    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img class="skills__img__languages" src="assets/img/languages/mysql.png" alt=""> </li>
+                            <li class="skills__name">MySQL</li>
+                        </ul>
+                    </div>
+            </div>
         </div>
     </section>
 
