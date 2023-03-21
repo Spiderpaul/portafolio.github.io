@@ -1,12 +1,12 @@
 .about__container{
     background: #ffffff;
     width: 100%;
-    height: 40vh;
+    height: 80vh;
 }
 
 .about__container__text{
     width: 80%;
-    height: 290px;
+    height: 370px;
     margin: auto;
     margin-top: 3%;
 }
@@ -25,7 +25,7 @@
 
 .about__container__signature{
     width: 80%;
-    height: 200px;
+    height: 100px;
     margin: auto;
 }
 
