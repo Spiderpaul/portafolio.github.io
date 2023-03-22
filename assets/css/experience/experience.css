@@ -1,8 +1,98 @@
+.experience__container{
+    background: #4D4D4D;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.experience__conteiner__title{
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
 
+.experience__section__title{
+    color: white;
+}
 
+.experience__line{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
 
+.experience__box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding-top: 20px;
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: 0 0 14px 1px rgb(255, 255, 255);
+}
 
 .experience__img{
-    width: 500px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px rgb(0, 0, 0);
+}
+
+.experience__container__text{
+    width: 90%;
+    height: 20%;
+    margin: auto;
+}
+
+.experience__text{
+    margin: auto;
+    color: white;
+}
+
+.experience__title{
+    color: white;
+}
+
+
+.experience__description{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.experience__repo{
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+  
+.experience__botao--repo{
+width: 30px;
+height: 30px;
+margin-top: 3px;
+visibility: visible;
+}
+
+.experience__repo:hover{
+visibility: visible;
+}
+
+.experience__click{
+    height: 20px;
 }
