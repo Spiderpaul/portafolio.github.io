@@ -4,7 +4,7 @@
 }
 
 .title__div {
-  background: linear-gradient(45deg, #09456c, #195e63);
+  background: orange;
   display: flex;
   justify-content: center;
   width: 100%;
