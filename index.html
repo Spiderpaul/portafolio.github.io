@@ -306,25 +306,36 @@
                         <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
                         <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
 
-                        <form class="formcontacto__form" name="form" action="https://formspree.io/f/mdovlwkq"
+                        <form class="formcontacto__form" id="formcontacto" name="form" action="https://formspree.io/f/mdovlwkq"
                         method="POST" data-form>
                             <div class="formcontacto__container__input">
-                                <input class="formcontacto__input" type="text" name="nombre" placeholder="Nombre">
+                                <input class="formcontacto__input" id="nombre" type="text" name="nombre" placeholder="Nombre">
+                            </div>
+                            <div class="container__error" id="error-nombre">
+                                <p class="mensaje__error">Solo se acepta texto y un máximo de 50 caracteres</p>
                             </div>
                             <div class="formcontacto__container__input">
-                                <input class="formcontacto__input" type="email" name="email" placeholder="E-mail">
+                                <input class="formcontacto__input" id="email" type="email" name="email" placeholder="E-mail">
+                            </div>
+                            <div class="container__error" id="error-email">
+                                <p class="mensaje__error">Formato aceptado: nombre@dominio.com</p>
                             </div>
                             <div class="formcontacto__container__input">
-                                <input class="formcontacto__input" type="text" name="asunto" placeholder="Assunto">
+                                <input class="formcontacto__input" id="asunto" type="text" name="asunto" placeholder="Asunto">
+                            </div>
+                            <div class="container__error" id="error-asunto">
+                                <p class="mensaje__error">Ha ingresado un simbolo invalido o más de 50 caracteres</p>
                             </div>
                             <div class="formcontacto__container__textarea">
                                 <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="container__error" id="error-mensaje">
+                                <p class="mensaje__error">Ha ingresado un simbolo invalido o más de 300 caracteres</p>
                             </div>
                             <div class="formcontacto__container__btn">
                                 <button type="submit" class="formcontacto__btn">Enviar mensaje</button>
                             </div>
                         </form>
-                        <a href="mailto:paulugortega@gmail.com" id="mailto__hidden" data-Mailto></a>
                     </div>
                 </div>
             </div>

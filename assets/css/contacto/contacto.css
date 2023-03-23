@@ -62,6 +62,11 @@
     border-radius: 10px;
 }
 
+.incorrecto{
+    background: rgb(238, 182, 182);
+    color: red;
+}
+
 .formcontacto__container__textarea{
     width: 100%;
     height: auto;
@@ -91,6 +96,24 @@
     font-size: 18px;
 }
 
-#mailto__hidden{
+.deshabilidado{
+    background: rgb(187, 81, 81);
+    color: rgb(46, 12, 12);
+}
+
+.container__error{
+    background: white;
+    color: red;
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 0 10px;
+    text-align: left;
     display: none;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.mostrar{
+    display: block;
 }
