@@ -1,0 +1,92 @@
+.formcontacto__contacto{
+    width: 100%;
+    height: 620px;
+    padding-top: 10px;
+}
+
+.formcontacto_container{
+    width: 80%;
+    height: 500px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    border: 2px solid #4D4D4D;
+    border-radius: 20px;
+    box-shadow: 0 0 14px 1px rgb(77, 77, 77);
+}
+
+.formcontacto__container__img{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formcontacto__img{
+    width: 250px;
+    border: 2px solid #4D4D4D;
+    border-radius: 50%;
+    box-shadow: 0 0 14px 1px rgb(77, 77, 77);
+}
+
+.formcontacto__text{
+    color: #4D4D4D;
+    width: 40%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formcontacto__title,
+.formcontacto__subtext{
+    margin: 10px 0 0 0;
+}
+
+.formcontacto__form{
+    width: 100%;
+    height: 250px;
+}
+
+.formcontacto__container__input{
+    width: 100%;
+    height: 45px;
+    margin: 5px;   
+}
+
+.formcontacto__input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.formcontacto__container__textarea{
+    width: 100%;
+    height: auto;
+    margin: 5px;    
+}
+
+.formcontacto__textarea{
+    width: 100%;
+    resize: none;
+    border: 2px solid #4D4D4D;
+    border-radius: 10px;
+}
+
+.formcontacto__container__btn{
+    width: 100%;
+    height: 35px;
+    text-align: left;
+}
+
+.formcontacto__btn{
+    background: #4D4D4D;
+    color: white;
+    width: 50%;
+    height: 35px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 18px;
+}

@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="assets/css/hobbies/hobbies.css">
     <link rel="stylesheet" href="assets/css/academic/academic.css">
     <link rel="stylesheet" href="assets/css/experience/experience.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
@@ -290,35 +292,48 @@
                     </div>  
                 </div>
             </div>
+        </div>
 
         <!-- Sección de Contacto -->
-        <section class="formcontato" id="contacto">
-            <div  class="formcontato__contacto">
-                <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets\contact_image.png">
-                </div>
-                <div class="formcontato__text">
-                    <h2 class="formcontato__title">Contacto</h2>
-                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
-                    </form>
+        <section class="formcontacto" id="contacto">
+            <div  class="formcontacto__contacto">
+                <div class="formcontacto_container">
+                    <div class="formcontacto__container__img">
+                        <img class="formcontacto__img" src="assets/img/contacto/paul-telefono.png">
+                    </div>
+                    <div class="formcontacto__text">
+                        <h2 class="formcontacto__title">Contacto</h2>
+                        <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
+                        <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                        <form class="formcontacto__form" name="form">
+                            <div class="formcontacto__container__input">
+                                <input class="formcontacto__input" type="text" name="nombre" placeholder="Nombre">
+                            </div>
+                            <div class="formcontacto__container__input">
+                                <input class="formcontacto__input" type="email" name="email" placeholder="E-mail">
+                            </div>
+                            <div class="formcontacto__container__input">
+                                <input class="formcontacto__input" type="text" name="asunto" placeholder="Assunto">
+                            </div>
+                            <div class="formcontacto__container__textarea">
+                                <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="formcontacto__container__btn">
+                                <button type="submit" class="formcontacto__btn">Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Sección de Footer -->
-        <section class="footer">
+        <footer class="footer">
             <div class="footer__rodape">
-                <p>Desarrollado por Fulana de Tal</p>
-                <p>2022</p>
+                <p>Desarrollado por Paul Lugo</p>
+                <p>2023</p>
             </div>
-        </section>
+        </footer>
     </div>
  <!-- Script del documento JavaScript -->
  <script src="js/menu.js"></script>

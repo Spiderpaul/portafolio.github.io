@@ -1,7 +1,8 @@
 .hobbies__container{
     background: linear-gradient(45deg, orange, #FFCC00);
     width: 100%;
-    height: auto;
+    height: 340px;
+    padding-top: 80px;
 }
 
 .hobbies__container__title{
@@ -36,7 +37,7 @@
 
 .hobbies__line__two{
     width: 80%;
-    height: 150px;
+    height: 160px;
     margin: auto;
     margin-bottom: 60px;
     display: flex;
@@ -44,14 +45,14 @@
 }
 
 .hobbies__box{
-    width: 100px;
+    width: 120px;
     height: 150px;
     text-align: center;
     margin: 0 2%;
     border: 2px solid #4D4D4D;
     box-shadow: 0 0 14px 1px rgb(77, 77, 77);
     border-radius: 5%;
-    padding: 5px 0;
+    padding: 20px 0;
 }
 
 .hobbies__img{
