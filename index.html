@@ -305,7 +305,9 @@
                         <h2 class="formcontacto__title">Contacto</h2>
                         <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
                         <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                        <form class="formcontacto__form" name="form">
+
+                        <form class="formcontacto__form" name="form" action="https://formspree.io/f/mdovlwkq"
+                        method="POST" data-form>
                             <div class="formcontacto__container__input">
                                 <input class="formcontacto__input" type="text" name="nombre" placeholder="Nombre">
                             </div>
@@ -316,12 +318,13 @@
                                 <input class="formcontacto__input" type="text" name="asunto" placeholder="Assunto">
                             </div>
                             <div class="formcontacto__container__textarea">
-                                <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                                <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="formcontacto__container__btn">
                                 <button type="submit" class="formcontacto__btn">Enviar mensaje</button>
                             </div>
                         </form>
+                        <a href="mailto:paulugortega@gmail.com" id="mailto__hidden" data-Mailto></a>
                     </div>
                 </div>
             </div>
@@ -336,7 +339,8 @@
         </footer>
     </div>
  <!-- Script del documento JavaScript -->
- <script src="js/menu.js"></script>
+<script src="js/menu.js"></script>
 <script src="js/validacion.js"></script>
+<script src="js/email.js"></script>
 </body>
 </html>

@@ -90,3 +90,7 @@
     border-radius: 10px;
     font-size: 18px;
 }
+
+#mailto__hidden{
+    display: none;
+}
