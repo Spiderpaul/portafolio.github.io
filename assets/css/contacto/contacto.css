@@ -97,9 +97,9 @@
     font-size: 18px;
 }
 
-.deshabilidado{
+.deshabilitado{
     background: rgb(187, 81, 81);
-    color: rgb(46, 12, 12);
+    color: white;
 }
 
 .container__error{
