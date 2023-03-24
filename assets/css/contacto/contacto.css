@@ -154,6 +154,10 @@
     display: block;
 }
 
+.textarea__mostrar{
+    display: block;
+}
+
 .formcontacto__sombra{
     position: fixed;
     background: rgba(77, 77, 77, .8);
