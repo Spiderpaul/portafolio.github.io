@@ -31,6 +31,7 @@
     border: 2px solid #4D4D4D;
     border-radius: 50%;
     box-shadow: 0 0 14px 1px rgb(77, 77, 77);
+    z-index: -1;
 }
 
 .formcontacto__text{
