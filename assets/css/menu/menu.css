@@ -109,10 +109,10 @@
         background: #273142;
         position: fixed;
         width: 100%;
-        height: 40vh;
+        height: auto;
         top: 60px;
         margin-top: 0;
-        right: -110%;
+        right: -150%;
         text-align: left;
         transition: all 0.5s;
         border-radius: 0 0 0 10px;
@@ -120,7 +120,7 @@
 
     .menu__list__item{
         display: block;
-        margin: 30px 0;
+        margin: 20px 0;
         line-height: 30px;
     }
 
@@ -137,4 +137,8 @@
     .check:checked ~ .menu__list{
         right: -70%;
     }
+}
+
+@media (max-width: 800px){
+    
 }
