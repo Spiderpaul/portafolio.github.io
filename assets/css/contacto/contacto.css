@@ -18,7 +18,7 @@
 }
 
 .formcontacto__container__img{
-    width: 25%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -108,6 +108,7 @@
     position: absolute;
     width: auto;
     height: auto;
+    left: 50%;
     padding: 0 10px;
     text-align: left;
     display: none;
@@ -117,4 +118,28 @@
 
 .mostrar{
     display: block;
+}
+
+@media (max-width: 840px){
+    .formcontacto__contacto{
+        height: 900px;
+        padding-top: 80px;
+    }
+    
+    .formcontacto_container{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formcontacto__text{
+        width: 80%;
+        min-width: 380px;
+        text-align: center;
+    }
+
+    .formcontacto__container__btn{
+        margin: auto;
+        text-align: center;
+    }
 }

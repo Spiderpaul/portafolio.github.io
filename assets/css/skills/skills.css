@@ -25,6 +25,15 @@
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skill__container__box{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 
 .skills__box{
@@ -53,7 +62,13 @@
 
 @media (max-width: 1258px){
     .skills__container{
-        height: 50vh;
+        height: auto;
     }
     
+    .skills__line{
+        height: auto;
+        padding-bottom: 80px;
+        margin-bottom: 0;
+    }
 }
+

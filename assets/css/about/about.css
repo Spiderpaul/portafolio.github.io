@@ -33,3 +33,10 @@
 .about__signature{
     width: 160px;
 }
+
+@media (max-width: 1000px){
+    .about__container{
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
