@@ -2,6 +2,7 @@ const form =  document.querySelector("[data-form]");
 const inputs = document.querySelectorAll("#formcontacto input");
 const textArea = document.querySelectorAll("#formcontacto textarea");
 const btn = document.querySelector("#btn");
+const btnAgradecimiento = document.querySelector("#btn-agradecimiento");
 
 /* const expresiones = {
     nombre: /^[a-zA-ZÀ-ÿ\s]{0,50}$/,
@@ -123,7 +124,10 @@ function verificarCampos(){
 }
 
 form.addEventListener('submit', handleSubmit);
-
+btnAgradecimiento.addEventListener('click', () => {
+    document.getElementById("sombra").classList.remove("agradecimiento__visible");
+    document.getElementById("btn").classList.remove("agradecimiento__btn__invisible");
+})
 
 async function handleSubmit(event){
     event.preventDefault();
@@ -139,10 +143,15 @@ async function handleSubmit(event){
 
     if(response.ok){
         this.reset();
-        alert(`Hola ${newForm.get('nombre')}, le agradezco por contactarme, responderé su mensaje lo más pronto posible`);
+        document.getElementById("sombra").classList.add("agradecimiento__visible");
+        document.getElementById("btn").classList.add("agradecimiento__btn__invisible");
+        let agradecimiento = document.getElementById("texto__agradecimiento");
+        agradecimiento.innerText = `Hola ${newForm.get('nombre')}, le agradezco por contactarme, responderé su mensaje lo más pronto posible`;
     }else{
         alert(`Algo salió mal, por favor intente de nuevo`);
     }
 
 }
+
+
 

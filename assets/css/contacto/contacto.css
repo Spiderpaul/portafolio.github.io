@@ -1,4 +1,5 @@
 .formcontacto__contacto{
+    position: relative;
     width: 100%;
     height: 620px;
     padding-top: 10px;
@@ -88,18 +89,34 @@
 }
 
 .formcontacto__btn{
+    position: relative;
     background: #4D4D4D;
     color: white;
     width: 50%;
     height: 35px;
-    margin: auto;
+    border: none;
     border-radius: 10px;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+    cursor: pointer;
+}
+
+
+.formcontacto__span{
+    font-size: 20px;
+}
+
+.agradecimiento__btn__invisible{
+    visibility: hidden;
 }
 
 .deshabilitado{
     background: rgb(187, 81, 81);
     color: white;
+    cursor: no-drop;
 }
 
 .container__error{
@@ -119,6 +136,100 @@
 .mostrar{
     display: block;
 }
+
+.formcontacto__sombra{
+    position: fixed;
+    background: rgba(77, 77, 77, .8);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.formcontact__container__agradecimiento{
+    background: white;
+    position: fixed;
+    left: 10%;
+    top: 20%;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid #4D4D4D;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px rgb(77, 77, 77);
+}
+
+.agradecimiento__visible{
+    display: block;
+}
+
+.agradecimiento__img{
+    width: 200px;
+    border: 2px solid #4D4D4D;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px rgb(77, 77, 77);
+}
+
+.agradecimiento__btn{
+    position: relative;
+    background: #195e63;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.agradecimiento__span{
+    font-size: 20px;
+}
+
+@keyframes wiggle-rotation {
+    0% {transform: rotate(0deg) translate3d(0,0,0);}
+    25% {transform: rotate(3deg) translate3d(0,0,0);}
+    50% {transform: rotate(-3deg) translate3d(0,0,0);}
+    75% {transform: rotate(1deg) translate3d(0,0,0);}
+    100% {transform: rotate(0deg) translate3d(0,0,0);}
+}
+
+
+@keyframes storm {
+    0%{transform: translate3d(0, 0, 0) translateZ(0);}
+    25%{transform: translate3d(4px, 0, 0) translateZ(0);}
+    50%{transform: translate3d(-3px, 0, 0) translateZ(0);}
+    75%{transform: translate3d(2px, 0, 0) translateZ(0);}
+    100%{transform: translate3d(0, 0, 0) translateZ(0);}
+}
+
+.formcontacto__btn:hover{
+    animation: wiggle-rotation 0.7s ease-in-out both;
+    animation-delay: 0.6s;
+}
+
+.formcontacto__btn:hover .formcontacto__span{
+    animation: storm 0.7s ease-in-out both;
+    animation-delay: 0.6s;
+}
+
+.agradecimiento__btn:hover {
+    animation: wiggle-rotation 0.7s ease-in-out both;
+    animation-delay: 0.6s;
+}
+
+.agradecimiento__btn:hover .agradecimiento__span {
+    animation: storm 0.7s ease-in-out both;
+    animation-delay: 0.6s;
+}
+
 
 @media (max-width: 840px){
     .formcontacto__contacto{
