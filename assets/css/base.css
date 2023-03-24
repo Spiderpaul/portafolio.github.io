@@ -1,3 +1,8 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body{
+    width: 100vw;
+    min-width: 410px;
+}
