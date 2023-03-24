@@ -134,6 +134,22 @@
     border-radius: 10px;
 }
 
+.container__error__textarea{
+    background: white;
+    color: red;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 80%;
+    padding: 0 10px;
+    text-align: left;
+    display: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    z-index: 1;
+}
+
 .mostrar{
     display: block;
 }

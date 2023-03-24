@@ -74,7 +74,7 @@ const validarFormulario = (e) => {
             let exMensaje = /^([A-Za-z0-9À-ÿ\_\-\.\,\#\?\¿\!\¡\s]){0,300}$/;
             if(exMensaje.test(inputMensaje.value) && inputMensaje.value != ""){
                 document.getElementById("mensaje").classList.remove("incorrecto");
-                document.getElementById("error-mensaje").classList.remove("mostrar");
+                document.getElementById("error-mensaje-textarea").classList.remove("mostrar");
                 campos.mensaje = true;
             }else{
                 document.getElementById("mensaje").classList.add("incorrecto");
